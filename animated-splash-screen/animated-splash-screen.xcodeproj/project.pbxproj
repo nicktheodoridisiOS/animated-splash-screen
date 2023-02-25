@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		699E65E629AA8E4D00F74B01 /* animated_splash_screenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E65E529AA8E4D00F74B01 /* animated_splash_screenApp.swift */; };
+		699E65E829AA8E4D00F74B01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E65E729AA8E4D00F74B01 /* ContentView.swift */; };
+		699E65EA29AA8E4E00F74B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699E65E929AA8E4E00F74B01 /* Assets.xcassets */; };
+		699E65ED29AA8E4E00F74B01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699E65EC29AA8E4E00F74B01 /* Preview Assets.xcassets */; };
+		699E65F729AA8E4E00F74B01 /* animated_splash_screenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E65F629AA8E4E00F74B01 /* animated_splash_screenTests.swift */; };
+		699E660129AA8E4E00F74B01 /* animated_splash_screenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E660029AA8E4E00F74B01 /* animated_splash_screenUITests.swift */; };
+		699E660329AA8E4E00F74B01 /* animated_splash_screenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E660229AA8E4E00F74B01 /* animated_splash_screenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		699E65F329AA8E4E00F74B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 699E65DA29AA8E4D00F74B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699E65E129AA8E4D00F74B01;
+			remoteInfo = "animated-splash-screen";
+		};
+		699E65FD29AA8E4E00F74B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 699E65DA29AA8E4D00F74B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699E65E129AA8E4D00F74B01;
+			remoteInfo = "animated-splash-screen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		699E65E229AA8E4D00F74B01 /* animated-splash-screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animated-splash-screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699E65E529AA8E4D00F74B01 /* animated_splash_screenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animated_splash_screenApp.swift; sourceTree = "<group>"; };
+		699E65E729AA8E4D00F74B01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		699E65E929AA8E4E00F74B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		699E65EC29AA8E4E00F74B01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		699E65F229AA8E4E00F74B01 /* animated-splash-screenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "animated-splash-screenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699E65F629AA8E4E00F74B01 /* animated_splash_screenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animated_splash_screenTests.swift; sourceTree = "<group>"; };
+		699E65FC29AA8E4E00F74B01 /* animated-splash-screenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "animated-splash-screenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		699E660029AA8E4E00F74B01 /* animated_splash_screenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animated_splash_screenUITests.swift; sourceTree = "<group>"; };
+		699E660229AA8E4E00F74B01 /* animated_splash_screenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animated_splash_screenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		699E65DF29AA8E4D00F74B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E65EF29AA8E4E00F74B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E65F929AA8E4E00F74B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		699E65D929AA8E4D00F74B01 = {
+			isa = PBXGroup;
+			children = (
+				699E65E429AA8E4D00F74B01 /* animated-splash-screen */,
+				699E65F529AA8E4E00F74B01 /* animated-splash-screenTests */,
+				699E65FF29AA8E4E00F74B01 /* animated-splash-screenUITests */,
+				699E65E329AA8E4D00F74B01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		699E65E329AA8E4D00F74B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				699E65E229AA8E4D00F74B01 /* animated-splash-screen.app */,
+				699E65F229AA8E4E00F74B01 /* animated-splash-screenTests.xctest */,
+				699E65FC29AA8E4E00F74B01 /* animated-splash-screenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		699E65E429AA8E4D00F74B01 /* animated-splash-screen */ = {
+			isa = PBXGroup;
+			children = (
+				699E65E529AA8E4D00F74B01 /* animated_splash_screenApp.swift */,
+				699E65E729AA8E4D00F74B01 /* ContentView.swift */,
+				699E65E929AA8E4E00F74B01 /* Assets.xcassets */,
+				699E65EB29AA8E4E00F74B01 /* Preview Content */,
+			);
+			path = "animated-splash-screen";
+			sourceTree = "<group>";
+		};
+		699E65EB29AA8E4E00F74B01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				699E65EC29AA8E4E00F74B01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		699E65F529AA8E4E00F74B01 /* animated-splash-screenTests */ = {
+			isa = PBXGroup;
+			children = (
+				699E65F629AA8E4E00F74B01 /* animated_splash_screenTests.swift */,
+			);
+			path = "animated-splash-screenTests";
+			sourceTree = "<group>";
+		};
+		699E65FF29AA8E4E00F74B01 /* animated-splash-screenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				699E660029AA8E4E00F74B01 /* animated_splash_screenUITests.swift */,
+				699E660229AA8E4E00F74B01 /* animated_splash_screenUITestsLaunchTests.swift */,
+			);
+			path = "animated-splash-screenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		699E65E129AA8E4D00F74B01 /* animated-splash-screen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699E660629AA8E4E00F74B01 /* Build configuration list for PBXNativeTarget "animated-splash-screen" */;
+			buildPhases = (
+				699E65DE29AA8E4D00F74B01 /* Sources */,
+				699E65DF29AA8E4D00F74B01 /* Frameworks */,
+				699E65E029AA8E4D00F74B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "animated-splash-screen";
+			productName = "animated-splash-screen";
+			productReference = 699E65E229AA8E4D00F74B01 /* animated-splash-screen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		699E65F129AA8E4E00F74B01 /* animated-splash-screenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699E660929AA8E4E00F74B01 /* Build configuration list for PBXNativeTarget "animated-splash-screenTests" */;
+			buildPhases = (
+				699E65EE29AA8E4E00F74B01 /* Sources */,
+				699E65EF29AA8E4E00F74B01 /* Frameworks */,
+				699E65F029AA8E4E00F74B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699E65F429AA8E4E00F74B01 /* PBXTargetDependency */,
+			);
+			name = "animated-splash-screenTests";
+			productName = "animated-splash-screenTests";
+			productReference = 699E65F229AA8E4E00F74B01 /* animated-splash-screenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		699E65FB29AA8E4E00F74B01 /* animated-splash-screenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699E660C29AA8E4E00F74B01 /* Build configuration list for PBXNativeTarget "animated-splash-screenUITests" */;
+			buildPhases = (
+				699E65F829AA8E4E00F74B01 /* Sources */,
+				699E65F929AA8E4E00F74B01 /* Frameworks */,
+				699E65FA29AA8E4E00F74B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				699E65FE29AA8E4E00F74B01 /* PBXTargetDependency */,
+			);
+			name = "animated-splash-screenUITests";
+			productName = "animated-splash-screenUITests";
+			productReference = 699E65FC29AA8E4E00F74B01 /* animated-splash-screenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		699E65DA29AA8E4D00F74B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					699E65E129AA8E4D00F74B01 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					699E65F129AA8E4E00F74B01 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 699E65E129AA8E4D00F74B01;
+					};
+					699E65FB29AA8E4E00F74B01 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 699E65E129AA8E4D00F74B01;
+					};
+				};
+			};
+			buildConfigurationList = 699E65DD29AA8E4D00F74B01 /* Build configuration list for PBXProject "animated-splash-screen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 699E65D929AA8E4D00F74B01;
+			productRefGroup = 699E65E329AA8E4D00F74B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				699E65E129AA8E4D00F74B01 /* animated-splash-screen */,
+				699E65F129AA8E4E00F74B01 /* animated-splash-screenTests */,
+				699E65FB29AA8E4E00F74B01 /* animated-splash-screenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		699E65E029AA8E4D00F74B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E65ED29AA8E4E00F74B01 /* Preview Assets.xcassets in Resources */,
+				699E65EA29AA8E4E00F74B01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E65F029AA8E4E00F74B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E65FA29AA8E4E00F74B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		699E65DE29AA8E4D00F74B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E65E829AA8E4D00F74B01 /* ContentView.swift in Sources */,
+				699E65E629AA8E4D00F74B01 /* animated_splash_screenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E65EE29AA8E4E00F74B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E65F729AA8E4E00F74B01 /* animated_splash_screenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699E65F829AA8E4E00F74B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699E660329AA8E4E00F74B01 /* animated_splash_screenUITestsLaunchTests.swift in Sources */,
+				699E660129AA8E4E00F74B01 /* animated_splash_screenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		699E65F429AA8E4E00F74B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699E65E129AA8E4D00F74B01 /* animated-splash-screen */;
+			targetProxy = 699E65F329AA8E4E00F74B01 /* PBXContainerItemProxy */;
+		};
+		699E65FE29AA8E4E00F74B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699E65E129AA8E4D00F74B01 /* animated-splash-screen */;
+			targetProxy = 699E65FD29AA8E4E00F74B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		699E660429AA8E4E00F74B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		699E660529AA8E4E00F74B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		699E660729AA8E4E00F74B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"animated-splash-screen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nick-Theodoridis.animated-splash-screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		699E660829AA8E4E00F74B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"animated-splash-screen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nick-Theodoridis.animated-splash-screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		699E660A29AA8E4E00F74B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nick-Theodoridis.animated-splash-screenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animated-splash-screen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/animated-splash-screen";
+			};
+			name = Debug;
+		};
+		699E660B29AA8E4E00F74B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nick-Theodoridis.animated-splash-screenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animated-splash-screen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/animated-splash-screen";
+			};
+			name = Release;
+		};
+		699E660D29AA8E4E00F74B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nick-Theodoridis.animated-splash-screenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "animated-splash-screen";
+			};
+			name = Debug;
+		};
+		699E660E29AA8E4E00F74B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nick-Theodoridis.animated-splash-screenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "animated-splash-screen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		699E65DD29AA8E4D00F74B01 /* Build configuration list for PBXProject "animated-splash-screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699E660429AA8E4E00F74B01 /* Debug */,
+				699E660529AA8E4E00F74B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699E660629AA8E4E00F74B01 /* Build configuration list for PBXNativeTarget "animated-splash-screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699E660729AA8E4E00F74B01 /* Debug */,
+				699E660829AA8E4E00F74B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699E660929AA8E4E00F74B01 /* Build configuration list for PBXNativeTarget "animated-splash-screenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699E660A29AA8E4E00F74B01 /* Debug */,
+				699E660B29AA8E4E00F74B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699E660C29AA8E4E00F74B01 /* Build configuration list for PBXNativeTarget "animated-splash-screenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699E660D29AA8E4E00F74B01 /* Debug */,
+				699E660E29AA8E4E00F74B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 699E65DA29AA8E4D00F74B01 /* Project object */;
+}

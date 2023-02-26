@@ -8,15 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isHomeScreen = false
+    @State var scaleAmmount: CGFloat = 1 
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack{
+            if(isHomeScreen){
+                Home()
+            }
+            else{
+                Circle()
+                    .frame(width: 30,height: 30)
+                    .scaleEffect(scaleAmmount)
+            }
         }
-        .padding()
+        .onAppear(){
+            withAnimation(.easeOut(duration: 0.4)){
+                scaleAmmount = 0.6
+            }
+            
+            withAnimation(.easeInOut(duration: 0.5).delay(0.8)){
+                scaleAmmount = 80
+            }
+            
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1){
+                isHomeScreen  = true
+            }
+        }
+       
+        
     }
+        
 }
 
 struct ContentView_Previews: PreviewProvider {

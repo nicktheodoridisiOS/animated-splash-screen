@@ -14,6 +14,7 @@
 		699E65F729AA8E4E00F74B01 /* animated_splash_screenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E65F629AA8E4E00F74B01 /* animated_splash_screenTests.swift */; };
 		699E660129AA8E4E00F74B01 /* animated_splash_screenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E660029AA8E4E00F74B01 /* animated_splash_screenUITests.swift */; };
 		699E660329AA8E4E00F74B01 /* animated_splash_screenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E660229AA8E4E00F74B01 /* animated_splash_screenUITestsLaunchTests.swift */; };
+		699E661029AB48DF00F74B01 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699E660F29AB48DF00F74B01 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		699E65FC29AA8E4E00F74B01 /* animated-splash-screenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "animated-splash-screenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		699E660029AA8E4E00F74B01 /* animated_splash_screenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animated_splash_screenUITests.swift; sourceTree = "<group>"; };
 		699E660229AA8E4E00F74B01 /* animated_splash_screenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animated_splash_screenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		699E660F29AB48DF00F74B01 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				699E65E729AA8E4D00F74B01 /* ContentView.swift */,
 				699E65E929AA8E4E00F74B01 /* Assets.xcassets */,
 				699E65EB29AA8E4E00F74B01 /* Preview Content */,
+				699E660F29AB48DF00F74B01 /* Home.swift */,
 			);
 			path = "animated-splash-screen";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				699E65E829AA8E4D00F74B01 /* ContentView.swift in Sources */,
+				699E661029AB48DF00F74B01 /* Home.swift in Sources */,
 				699E65E629AA8E4D00F74B01 /* animated_splash_screenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
